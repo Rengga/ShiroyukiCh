@@ -22,7 +22,7 @@ a {
 }
 
 .pp {
-  width: 20%;
+  width: 300px;
 }
 
 .se1 {
@@ -34,6 +34,7 @@ a {
   gap: 30px;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 .link,
 .nama {
