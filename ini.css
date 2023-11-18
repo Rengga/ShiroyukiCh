@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+body {
+  background-image: url("bahan/bhn.svg");
+  background-repeat: ;
+  background-size: cover;
+  object-fit: cover;
+  background-color: #2a154a;
+}
+
+a {
+  text-decoration: unset;
+}
+
+@font-face {
+  font-family: myfont;
+  src: url(bahan/Dinoko-Regular.otf);
+}
+
+@font-face {
+  font-family: myfontv2;
+  src: url(bahan/Pure\ Joy.otf);
+}
+
+.pp {
+  width: 20%;
+}
+
+.se1 {
+  padding: 40px 40px;
+}
+
+.sosmed {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.link,
+.nama {
+  color: white;
+}
+.nama {
+  font-family: myfont;
+  font-size: 90px;
+}
+.link {
+  line-height: normal;
+  font-size: 50px;
+  width: 260px;
+  text-align: center;
+  border: 6px solid white;
+  border-radius: 18px;
+  background-color: #7e5fcf;
+  font-family: "Poppins", sans-serif;
+  transition: 0.3s;
+}
+
+.link:hover {
+  width: 280px;
+  background-color: #5b3fa1;
+}
